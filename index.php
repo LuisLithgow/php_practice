@@ -15,7 +15,15 @@
       $person2 = "Alice";
       $person3 = "Rhonda";
 
-      $people = array("Jax", "Alice", "Rhonda" => , );
+      $people = array("Jax", "Alice", "Rhonda" );
+      // print_r($people);
+      $numbers = array(5, 3, 7 );
+
+      $sum = 0;
+      foreach ($numbers as $number) {
+        $sum = $sum + $number;
+      }
+      echo "the sum of the numbers is " . $sum;
 
 
 
